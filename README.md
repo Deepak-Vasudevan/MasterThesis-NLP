@@ -10,12 +10,13 @@ The optimization process is carried out in two steps
 The optimization framework addresses the minimisation of the average network pressure in an extended time setting by imposing the hydraulic equations as nonlinear constraints. The hydraulic components, namely the pressure reduction valves, are modelled as integer variables resulting in a non-convex and non-linear optimization problem that falls under the
 class of optimization problems known as mixed-integer nonlinear programming (MINLP).
 
-The project implements two reformulation methods that solves the
-MINLP problem as a sequence of regular nonlinear programs (NLPs) - The Penalty method and Reformulation Method.
+The project implements two reformulation methods that solves the MINLP problem as a sequence of regular nonlinear programs (NLPs) - The Penalty method and Reformulation Method.
 
 While there is sufficient research on water network optimization using various mathematical methods, this project tries to combine a leakage model within the optimization framework.
 
 The project also includes a generation of various pseudo random demand patters for simulating a real distribution network simulated under appropriate demand conditions, though explicit details of the consumer data points are not included with the code files.
+
+The project requires an open otimization toolbox to be installed in MATLAB available at the following website - https://inverseproblem.co.nz/OPTI/index.php
 
 Keywords: Nonconvex optimization, NLP, MINLP, BONMIN, IPOPT, Demand management, Pressure reduction, Leakage minimisation.
 
