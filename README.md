@@ -20,6 +20,8 @@ The project requires an open otimization toolbox to be installed in MATLAB avail
 
 Keywords: Nonconvex optimization, NLP, MINLP, BONMIN, IPOPT, Demand management, Pressure reduction, Leakage minimisation.
 
+Thesis Report (DiVA) : http://kth.diva-portal.org/smash/get/diva2:1297276/FULLTEXT01.pdf
+
 Coding tool : MATLAB
 
 Simulation Tool : Mike Urban
